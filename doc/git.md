@@ -48,10 +48,10 @@ git branch -a :查看全部分支（远程的和本地的）
 git push origin --delete yyc_test
 ##  2.9	删除本地分支
 git branch -D 分支名
-##  2.10	CodeClub之间切换project（目前不使用鼎桥自己的服务器）
+##  2.10	CodeClub之间切换project
 Git bash打开本地master
 git pull最新的master代码
-git remote set-url origin ssh://ubp@10.160.157.141:2222/pshGITpublic/eAPP610.git
+git remote set-url origin ssh://ubp@**:2222/pshGITpublic/eAPP610.git
 即可切换到新的鼎桥codeclub服务器上
 可以用 git remote -v 查看是否切换对了
 ##  2.11	Git恢复之前版本的两种方法reset、revert（图文详解）
