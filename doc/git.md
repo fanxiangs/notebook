@@ -1,5 +1,5 @@
 [toc]
-
+[git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 #	基础Git命令操作
 ##  2.1拉取分支
 进入项目目录，运行git pull保证当前项目是最新master版本，通过git branch可查看当前处于哪个分支。然后运行git checkout -b new_branch_name创建新分支。
