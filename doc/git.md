@@ -54,7 +54,7 @@ git branch -D 分支名
 Git bash打开本地master
 git pull最新的master代码
 git remote set-url origin ssh://ubp@**:2222/pshGITpublic/eAPP610.git
-即可切换到新的鼎桥codeclub服务器上
+即可切换到新的codeclub服务器上
 可以用 git remote -v 查看是否切换对了
 ##  2.11	Git恢复之前版本的两种方法reset、revert（图文详解）
 来自https://blog.csdn.net/yxlshk/article/details/79944535
