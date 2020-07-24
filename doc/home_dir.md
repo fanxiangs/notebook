@@ -2,7 +2,7 @@
 
 # python
 
-## [定时任务](../python/package/定时任务.py)
+## [定时任务](../python/package/_01_schedulers.py)
 
 schedule:是一个轻量级的定时任务方案，优势是使用简单，也不需要做什么配置；缺点是无法动态添加任务，也无法将任务持久化
 APScheduler:解决了schedule打不足,可任务持久化
