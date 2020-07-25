@@ -16,6 +16,7 @@ https://leetcode-cn.com/problems/minimum-path-sum/
 
 class Solution:
     def minPathSum(self, grid) -> int:
+        """动态规划"""
         rows, columns = len(grid), len(grid[0])
         dp = [[0] * columns for _ in range(rows)]
         dp[0][0] = grid[0][0]
