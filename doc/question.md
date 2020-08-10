@@ -3,9 +3,9 @@
 
 1. python 之禅是什么?如何获取?
 2. 上下文解析器?
-3. [zip打包函数的使用?元祖或者列表中元素生成字典](../python/base/_2map.py)
-4. [map映射函数?](../python/base/_2map.py)
-5. [filter过滤函数如何使用](../python/base/_2map.py)
+3. [zip打包函数的使用?元祖或者列表中元素生成字典](../Python/base/_2map.py)
+4. [map映射函数?](../Python/base/_2map.py)
+5. [filter过滤函数如何使用](../Python/base/_2map.py)
 6. enumerate 为元素下表添加索引
 7. lambda 匿名函数如何使用
 

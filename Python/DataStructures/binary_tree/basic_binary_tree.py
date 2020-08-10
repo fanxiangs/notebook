@@ -1,9 +1,40 @@
 # -*- coding: UTF-8 -*-
 class Node:
+    """节点类"""
+
     def __init__(self, data):
         self.data = data
         self.left = None
         self.right = None
+
+
+class Tree:
+    """树类"""
+
+    def __init__(self, root=None):
+        # 初始化树类，有一个根节点构成，开始为空
+        self.root = root
+
+    def add(self, elem):
+        # 添加节点
+        node = Node(elem)
+        if self.root == Node:
+            self.root = node
+        else:
+            queue = [self.root]
+            # 对已有的队列进行遍历
+            while queue:
+                cur = queue.pop()
+                if cur.left is None:
+                    cur.left = node
+                    return
+                elif cur.right is None:
+                    cur.right = node
+                    return
+                else:
+                    # 如果左右子树都不为空加入队列继续判断
+                    queue.append(cur.left)
+                    queue.append(cur.right)
 
 
 def display(tree):
