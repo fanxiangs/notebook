@@ -34,9 +34,9 @@ class Solution:
             if num == 1:
                 count += 1
             else:
+                maxCount = max(maxCount, count)
                 count = 0
-            maxCount = max(maxCount, count)
-        return maxCount
+        return max(maxCount, count)
 
     def findMaxConsecutiveOnes_1(self, nums) -> int:
         """
