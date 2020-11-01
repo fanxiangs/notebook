@@ -35,7 +35,8 @@ class Solution:
                 count += 1
             else:
                 count = 0
-        return max(maxCount, count)
+            maxCount = max(maxCount, count)
+        return maxCount
 
     def findMaxConsecutiveOnes_1(self, nums) -> int:
         """
@@ -51,6 +52,7 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    l = [1, 1, 0, 1, 1, 1]
-    r = s.findMaxConsecutiveOnes_1(l)
+    # l = [1, 1, 0, 1, 1, 1]
+    l = [1, 0, 1, 1, 0, 1]
+    r = s.findMaxConsecutiveOnes(l)
     print(r)
