@@ -9,5 +9,3 @@
 
 3 directories, 3 files
 ```
-1234
-1234567
