@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 """
-@time:2020/04/12
+time:2020/04/12
 """
 """
 map(func, *iterables) --> map object
