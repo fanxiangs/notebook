@@ -4,12 +4,20 @@
 # time: 11/06/2021
 
 class Node(object):
-    def __init__(self, data, next=None):
+    def __init__(self, data):
         self.data = data
-        self.next = next
+        self.next = None
 
     def __str__(self):
-        return self.data
+        return str(self.data)
+
+    def __repr__(self) -> str:
+        """
+        Get the string representation of this node.
+        >>> Node(10).__repr__()
+        'Node(10)'
+        """
+        return f"Node({self.data})"
 
 
 class LinkedList(object):
@@ -63,7 +71,7 @@ class LinkedList(object):
             node.next = target_node
             return node
 
-    def travel(self):
+    def print_link(self):
         cur = self.head
         while cur is not None:
             print(cur.data, end=',')
@@ -91,7 +99,26 @@ class LinkedList(object):
             cur_node = cur_node.next
         return res
 
+    def reverse(self):
+        if self.head is None:
+            return
+        pre_node = None
+        cur_node = self.head
+        while cur_node is not None:
+            next_node = cur_node.next
+            cur_node.next = pre_node
+            pre_node = cur_node
+            cur_node = next_node
+        self.head = pre_node
+
 
 if __name__ == '__main__':
     linked_list = LinkedList()
     linked_list.append(10)
+    linked_list.append(11)
+    linked_list.append(12)
+    linked_list.print_link()
+    linked_list.reverse()
+    linked_list.print_link()
+    r = Node(10)
+    print(r)
