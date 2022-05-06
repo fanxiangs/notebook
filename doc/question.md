@@ -1,4 +1,4 @@
-[toc]
+<extoc></extoc>
 # 基础知识
 
 1. python 之禅是什么?如何获取?
