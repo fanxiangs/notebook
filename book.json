@@ -10,7 +10,8 @@
     "simple-page-toc",
     "github",
     "expandable-chapters-small",
-    "chapter-fold"
+    "chapter-fold",
+    "edit-link-plus"
   ],
   "pluginsConfig": {
     "anchor-navigation-ex": {
@@ -29,6 +30,9 @@
     },
     "github": {
       "url": "https://github.com/fanxiangs"
+    },
+    "edit-link-plus": {
+      "base": "https://github.com/fanxiangs/notebook/edit/main"
     }
   }
 }

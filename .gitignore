@@ -129,3 +129,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /demo/
+_book/
+node_modules/
+SUMMARY.md
