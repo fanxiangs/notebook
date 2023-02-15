@@ -1,3 +1,4 @@
 <!-- ex_nonav -->
 
-- [VersionControl](VersionControl.md)
+- [Version Control](VersionControl.md)
+- [Gerrit Deploy](gerrit-deploy.md)
