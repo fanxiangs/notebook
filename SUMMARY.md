@@ -2,7 +2,7 @@
 
 * [README](README.md)
 * [CSAPP](csapp/README.md)
-  * [Chapter 01](CSAPP/chapter01/README.md)
+  * [Chapter 01](csapp/chapter01/README.md)
 * [Doc](doc/doc.md)
   * [Devops](doc/devops/README.md)
     * [Gerrit Deploy](doc/devops/gerrit-deploy.md)
