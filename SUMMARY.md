@@ -14,3 +14,5 @@
   * [Python](python/python.md)
   * [Django](python/django.md)
   * [Tips](Python/tips/tips.md)
+* [Shell](shell/README.md)
+  * [man bash](shell/man-bash.md)
