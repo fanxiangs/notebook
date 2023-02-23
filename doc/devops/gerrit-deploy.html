@@ -1,0 +1,632 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Gerrit Deploy · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Xiang Fan">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="VersionControl.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../csapp/">
+            
+                <a href="../../csapp/">
+            
+                    
+                    Csapp
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../csapp/chapter01/">
+            
+                <a href="../../csapp/chapter01/">
+            
+                    
+                    Chapter 01
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../doc.html">
+            
+                <a href="../doc.html">
+            
+                    
+                    Doc
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Devops
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1.1" data-path="gerrit-deploy.html">
+            
+                <a href="gerrit-deploy.html">
+            
+                    
+                    Gerrit Deploy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="VersionControl.html">
+            
+                <a href="VersionControl.html">
+            
+                    
+                    Version Control
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../git.html">
+            
+                <a href="../git.html">
+            
+                    
+                    Git
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../k8s.html">
+            
+                <a href="../k8s.html">
+            
+                    
+                    K 8 S
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../re.html">
+            
+                <a href="../re.html">
+            
+                    
+                    Re
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../python/python.html">
+            
+                <a href="../../python/python.html">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../python/tips/tips.html">
+            
+                <a href="../../python/tips/tips.html">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../python/django.html">
+            
+                <a href="../../python/django.html">
+            
+                    
+                    Django
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../../python/python.html">
+            
+                <a href="../../python/python.html">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    Python
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../Python/tips/tips.html">
+            
+                <a href="../../Python/tips/tips.html">
+            
+                    
+                    Tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../shell/">
+            
+                <a href="../../shell/">
+            
+                    
+                    Shell
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../shell/man-bash.html">
+            
+                <a href="../../shell/man-bash.html">
+            
+                    
+                    Man Bash
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Gerrit Deploy</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#gerrit-deploy"><b>1. </b>Gerrit Deploy</a></li><ul><ul><li><span class="title-icon "></span><a href="#gerritconfig"><b>1.1.1. </b>gerrit.config</a></li><li><span class="title-icon "></span><a href="#replicationconfig"><b>1.1.2. </b>replication.config</a></li><li><span class="title-icon "></span><a href="#docker-composeyaml"><b>1.1.3. </b>docker-compose.yaml</a></li></ul></ul></ul></div><a href="#gerrit-deploy" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="gerrit-deploy"><a name="gerrit-deploy" class="anchor-navigation-ex-anchor" href="#gerrit-deploy"><i class="fa fa-link" aria-hidden="true"></i></a>1. Gerrit Deploy</h1>
+<h3 id="gerritconfig"><a name="gerritconfig" class="anchor-navigation-ex-anchor" href="#gerritconfig"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.1. gerrit.config</h3>
+<pre><code class="lang-sh">[gerrit]
+    basePath = git
+    canonicalWebUrl = http://xx.xx.xx.xx:8081
+    serverId = fe37d9bb-1f83-4f35-9b68-56ffa056c02b
+[container]
+    javaOptions = <span class="hljs-string">&quot;-Dflogger.backend_factory=com.google.common.flogger.backend.log4j.Log4jBackendFactory#getInstance&quot;</span>
+    javaOptions = <span class="hljs-string">&quot;-Dflogger.logging_context=com.google.gerrit.server.logging.LoggingContext#getInstance&quot;</span>
+    user = root
+    javaHome = /usr/lib/jvm/java-11-openjdk-11.0.15.0.10-2.el8_6.x86_64
+    javaOptions = -Djava.security.egd=file:/dev/./urandom
+    javaOptions = --add-opens java.base/java.net=ALL-UNNAMED
+    javaOptions = --add-opens java.base/java.lang.invoke=ALL-UNNAMED
+    javaOptions = -Djava.security.egd=file:/dev/./urandom
+    javaOptions = --add-opens java.base/java.net=ALL-UNNAMED
+    javaOptions = --add-opens java.base/java.lang.invoke=ALL-UNNAMED
+    javaOptions = -Djava.security.egd=file:/dev/./urandom
+    javaOptions = --add-opens java.base/java.net=ALL-UNNAMED
+    javaOptions = --add-opens java.base/java.lang.invoke=ALL-UNNAMED
+    javaOptions = -Djava.security.egd=file:/dev/./urandom
+    javaOptions = --add-opens java.base/java.net=ALL-UNNAMED
+    javaOptions = --add-opens java.base/java.lang.invoke=ALL-UNNAMED
+    javaOptions = -Djava.security.egd=file:/dev/./urandom
+    javaOptions = --add-opens java.base/java.net=ALL-UNNAMED
+    javaOptions = --add-opens java.base/java.lang.invoke=ALL-UNNAMED
+[index]
+    <span class="hljs-built_in">type</span> = lucene
+[auth]
+    <span class="hljs-built_in">type</span> = ldap
+    gitBasicAuthPolicy = HTTP
+[receive]
+    <span class="hljs-built_in">enable</span>SignedPush = <span class="hljs-literal">false</span>
+[sendemail]
+    smtpServer = smtp.mxhichina.com
+    smtpServerPort = 465
+    smtpEncryption = SSL
+    from = devops-cst@x-peng.cn
+    smtpUser = devops-cst@x-peng.cn
+    smtpPass = NHF<span class="hljs-comment">#wqPV</span>
+[sshd]
+    listenAddress = *:29418
+[httpd]
+    listenUrl = http://*:8080/
+[cache]
+    directory = cache
+[plugins]
+    allowRemoteAdmin = <span class="hljs-literal">true</span>
+[plugin <span class="hljs-string">&quot;avatars-gravatar&quot;</span>]
+    <span class="hljs-built_in">type</span> = identicon
+</code></pre>
+<h3 id="replicationconfig"><a name="replicationconfig" class="anchor-navigation-ex-anchor" href="#replicationconfig"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.2. replication.config</h3>
+<pre><code class="lang-bash">[gerrit]
+    autoReload = <span class="hljs-literal">true</span>
+    replicateOnStartup = <span class="hljs-literal">true</span>
+[replication]
+    lockErrorMaxRetries = 5
+    maxRetries = 5
+[remote <span class="hljs-string">&quot;gitlab&quot;</span>]
+    url = xx.git
+    push = +refs/heads/*:refs/heads/*
+    push = +refs/tags/*:refs/tags/*
+    threads = 3
+    rescheduleDelay = 15
+</code></pre>
+<h3 id="docker-composeyaml"><a name="docker-composeyaml" class="anchor-navigation-ex-anchor" href="#docker-composeyaml"><i class="fa fa-link" aria-hidden="true"></i></a>1.1.3. docker-compose.yaml</h3>
+<pre><code class="lang-yaml"><span class="hljs-attr">version:</span> <span class="hljs-string">&apos;3&apos;</span>
+<span class="hljs-attr">volumes:</span>
+<span class="hljs-attr">  gerrit_plugins_vol:</span>
+<span class="hljs-attr">services:</span>
+<span class="hljs-attr">  gerrit:</span>
+<span class="hljs-attr">    user:</span> root
+<span class="hljs-attr">    image:</span> gerrit:<span class="hljs-number">3.6</span><span class="hljs-number">.1</span>
+<span class="hljs-attr">    ports:</span>
+<span class="hljs-bullet">      -</span> <span class="hljs-string">&quot;29418:29418&quot;</span>
+<span class="hljs-bullet">      -</span> <span class="hljs-string">&quot;8081:8080&quot;</span>
+<span class="hljs-attr">    volumes:</span>
+<span class="hljs-attr">      - gerrit_plugins:</span>/var/gerrit/plugins
+<span class="hljs-bullet">      -</span> ./external/gerrit/etc:/var/gerrit/etc
+<span class="hljs-bullet">      -</span> ./external/gerrit/git:/var/gerrit/git
+<span class="hljs-bullet">      -</span> ./external/gerrit/db:/var/gerrit/db
+<span class="hljs-bullet">      -</span> ./external/gerrit/index:/var/gerrit/index
+<span class="hljs-bullet">      -</span> ./external/gerrit/cache:/var/gerrit/cache
+<span class="hljs-bullet">      -</span> ./external/gerrit/.ssh:/root/.ssh
+<span class="hljs-attr">    environment:</span>
+<span class="hljs-bullet">      -</span> CANONICAL_WEB_URL=http://xx.xx.xx.xx:<span class="hljs-number">8081</span>
+    <span class="hljs-comment"># command: init</span>
+</code></pre>
+<pre><code class="lang-Plaintext">docker run -ti -p 8080:8080 -p 29418:29418 -v $(pwd)/etc:/var/gerrit/etc gerritcodereview/gerrit:3.5.4
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Devops">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="VersionControl.html" class="navigation navigation-next " aria-label="Next page: Version Control">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Gerrit Deploy","level":"1.3.1.1","depth":3,"next":{"title":"Version Control","level":"1.3.1.2","depth":3,"path":"doc/devops/VersionControl.md","ref":"doc/devops/VersionControl.md","articles":[]},"previous":{"title":"Devops","level":"1.3.1","depth":2,"path":"doc/devops/README.md","ref":"doc/devops/README.md","articles":[{"title":"Gerrit Deploy","level":"1.3.1.1","depth":3,"path":"doc/devops/gerrit-deploy.md","ref":"doc/devops/gerrit-deploy.md","articles":[]},{"title":"Version Control","level":"1.3.1.2","depth":3,"path":"doc/devops/VersionControl.md","ref":"doc/devops/VersionControl.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["anchor-navigation-ex","code","disqus","splitter","toc","simple-page-toc","github","expandable-chapters-small","chapter-fold","edit-link-plus"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"disqus":{"useIdentifier":false,"shortName":"fanxiang"},"github":{"url":"https://github.com/fanxiangs"},"simple-page-toc":{"maxDepth":3,"skipFirstH1":false},"splitter":{},"toc":{},"search":{},"edit-link-plus":{"label":"Edit This Page","base":"https://github.com/fanxiangs/notebook/edit/main"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":true},"expandable-chapters-small":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Xiang Fan","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"doc/devops/gerrit-deploy.md","mtime":"2023-02-23T08:46:37.294Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-02-23T08:47:36.790Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link-plus/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
